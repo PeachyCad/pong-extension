@@ -1,0 +1,27 @@
+{
+  "name": "Pong",
+  "description": "Pong extension",
+  "version": "1.0.5",
+  "manifest_version": 3,
+  
+  "action": {
+    "default_icon": {
+      "16": "/images/pong_16.png",
+      "24": "/images/pong_24.png",
+      "32": "/images/pong_32.png",
+      "64": "/images/pong_64.png",
+      "128": "/images/pong_128.png"
+  },
+    "default_popup": "pong.html"
+  },
+
+  "icons": {
+    "16": "/images/pong_16.png",
+    "24": "/images/pong_24.png",
+    "32": "/images/pong_32.png",
+    "64": "/images/pong_64.png",
+    "128": "/images/pong_128.png"
+},
+
+  "permissions": ["activeTab", "scripting"]
+}
